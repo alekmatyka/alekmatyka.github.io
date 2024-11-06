@@ -26,6 +26,27 @@ let legionclass=[
     ["alpha","alpha"]
 ]
 
+let legiondescriptons=[
+    ["caliban","caliban"],
+    ["fulgrim","slaneesh"],
+    ["perturabo","perturabo"],
+    ["khan","khan"],
+    ["fenris","fenris"],
+    ["dorn","dorn"],
+    ["nostramo","nostramo"],
+    ["baal","baal"],
+    ["ferrus","ferrus"],
+    ["angron","khorne"],
+    ["ultra","ultra"],
+    ["mortarion","nurgle"],
+    ["magnus","arhiman"],
+    ["horus","abbadon"],
+    ["lorgar","lorgar"],
+    ["vulcan","vulcan"],
+    ["corvus","corvus"],
+    ["alpha","alpha"]
+]
+
 let counter=[]
 for(let i=0;i<18;i++){
     counter.push(0)
