@@ -1,0 +1,129 @@
+.nurgle{
+    background-color: rgb(126, 151, 94);
+    color: white;
+}
+
+.khorne{
+    background-color: rgb(101, 0,1);
+    color: white;
+}
+
+.slaneesh{
+    background-color: rgb(136, 105, 174);
+    color: white;
+}
+
+.tzeench{
+    background-color: rgb(158, 181, 206);
+}
+
+.caliban{
+    background-color: rgb(0, 61, 21)
+}
+
+.fulgrim{
+    background-color: rgb(183, 64, 115);
+}
+
+.perturabo{
+    background-color: rgb(97, 102, 103);
+}
+
+.khan{
+    background-color: white;
+    color: rgb(192, 20, 17);
+}
+
+.fenris{
+    background-color: rgb(109, 148, 179);
+
+}
+
+.dorn{
+    background-color: rgb(255, 226,0);
+    color: black;
+}
+
+.nostramo{
+    background-color: rgb(0, 43, 92);
+
+}
+
+.baal{
+    background-color: rgb(150, 12, 9);
+}
+
+.ferrus{
+    background-color: black;
+    color: rgb(162, 165, 167);
+
+}
+
+.angron{
+    background-color: rgb(226, 24, 35);
+}
+
+.ultra{
+    background-color: rgb(15, 61, 124);
+}
+
+.mortarion{
+    background-color: rgb(109, 119, 77);
+
+}
+
+.magnus{
+    background-color: rgb(192, 20, 17);
+}
+
+.horus{
+    background-color: rgb(0, 84, 94);
+}
+
+.lorgar{
+    background-color: rgb(167, 77, 66);
+}
+
+.vulcan{
+    background-color: rgb(15, 112, 42);
+
+}
+
+.corvus{
+    background-color: black;
+}
+
+.alpha{
+    background-color: rgb(0, 141, 165);
+}
+
+.nothere{
+    background-color: rgb(235, 235, 235);
+    color: rgb(235, 235, 235);
+}
+
+.scp{
+    background-color: black;
+    color:black;
+}
+
+.emperor{
+    background-color: rgb(216, 157, 27);
+}
+
+.astartes{
+    background-color: rgb(42, 73, 127);
+}
+
+.guard{
+    background-color: rgb(188, 187, 126);
+    color: black;
+}
+.abbadon{
+    background-color: black;
+    color: rgb(216, 157, 27);
+}
+
+.arhiman{
+    background-color: rgb(0, 112, 138);
+}

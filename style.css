@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('fonts/futura-medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Drogowskaz';
+    src: url('fonts/Drogowskaz_lekki_owalny.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    font-family: "Futura", sans-serif;
+    margin: 0;
+    color: white;
+    height: 100%;
+
+}
+
+.main-header{
+    background-color: rgb(57, 72, 74);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    padding: 3px;
+    background-color:rgb(162, 165, 167);
+    display: flex;
+    height: auto;
+}
+
+.nav{
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(57, 72, 74);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    height: auto;
+    margin: 10px;
+    overflow: hidden;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.nav:hover{
+    color: rgb(57, 72, 74);
+    background-color: white;
+}
+
+main{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    flex:1;
+    
+}
+
+.loreblock{
+    background-color: yellow;
+    display: flex;
+    height: auto;
+    width: 450px;
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+
+
+.loreblock header{
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    height: 200px;
+}
+
+.loreblock img{
+    width:200px;
+    height: 200px;
+    
+}
+
+.loreblock article{
+    padding: 10px;
+    height: auto;
+    align-content: center;
+    text-align: center;
+    width:100%;
+    /* overflow-y: scroll; */
+}
+
+.lore{
+    width: 100%;
+    height: auto;
+    background-color: rgb(152, 156, 148);
+    text-align: center;
+    font-size: 15pt;
+    margin:10%;
+    padding: 3%;
+}
+
+footer{
+    background-color: rgb(57, 72, 74);
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+    
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+textarea{
+    font-family: "Drogowskaz", sans-serif;
+}
+.loreblock h4{
+    padding-bottom: 0px;
+    margin-top:10px;
+    margin-bottom: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    resize: none;
+    color: black;
+}
+
+button{
+    width:30%;
+    height: 30px;
+    margin: 10px;
+    font-family: "Drogowskaz";
+    background-color: white;
+    border: none;    
+    overflow-y: hidden;
+}
