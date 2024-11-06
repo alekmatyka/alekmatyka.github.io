@@ -3,11 +3,10 @@ let blegion=["<h1>XVI<br>WILKI LUNY / SYNOWIE HORUSA</h1>","<h1>CZARNY LEGION</h
 
 const loreblocks=document.getElementsByClassName("legionlore")
 
-const loredivs=document.getElementsByClassName("loreblock")
+const loredivs=document.getElementsByClassName("heresy")
 
 let legionclass=[
     ["caliban","caliban"],
-    ["nothere","nothere"],
     ["fulgrim","slaneesh"],
     ["perturabo","perturabo"],
     ["khan","khan"],
@@ -16,7 +15,6 @@ let legionclass=[
     ["nostramo","nostramo"],
     ["baal","baal"],
     ["ferrus","ferrus"],
-    ["scp","scp"],
     ["angron","khorne"],
     ["ultra","ultra"],
     ["mortarion","nurgle"],
@@ -29,13 +27,13 @@ let legionclass=[
 ]
 
 let counter=[]
-for(let i=0;i<20;i++){
+for(let i=0;i<18;i++){
     counter.push(0)
 }
 
 console.log(legionclass[2][1])
 
-for(let i=0;i<20;i++){
+for(let i=0;i<18;i++){
     loreblocks[i].innerHTML=legionclass[i][0]
 }
 //--------------------------------------------------
@@ -50,15 +48,18 @@ for(let i=0;i<20;i++){
 
 const bts = document.getElementsByClassName("button")
 
-for(let i=0;i<20;i++){
+console.log("dlg bt "+loredivs.length)
+console.log(loredivs)
+
+for(let i=0;i<18;i++){
     bts[i].addEventListener("click",(e)=>{
         counter[i] = (counter[i]+1)%2
         loreblocks[i].innerHTML=legionclass[i][counter[i]]
-        loredivs[i].classList="loreblock "+legionclass[i][counter[i]]
+        loredivs[i].classList="loreblock "+legionclass[i][counter[i]]+" heresy"
         
         bts[i].innerHTML=buttontext[counter[i]]
 
-        if(i==15){
+        if(i==13){
             //horus
             let title = document.getElementById("blegion")
             title.innerHTML=blegion[counter[i]]
