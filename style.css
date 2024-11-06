@@ -205,6 +205,10 @@ button{
     color:white;
 }
 
+.loreblock li{
+    text-align: left;
+}
+
 @media (max-width: 550px) {
     .form-header{
         flex-direction: column;
