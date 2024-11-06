@@ -13,7 +13,7 @@ const placeholders={
 
 textarea.setAttribute("placeholder",placeholders[select.value])
 
-select.addEventListener("click",e=>{
+select.addEventListener("change",e=>{
     textarea.setAttribute("placeholder",placeholders[select.value])
 })
 
