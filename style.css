@@ -205,7 +205,7 @@ button{
     color:white;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 550px) {
     .form-header{
         flex-direction: column;
         justify-content: center;
