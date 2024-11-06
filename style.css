@@ -103,6 +103,10 @@ main{
 }
 
 .lore{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
     width: 100%;
     height: auto;
     background-color: rgb(152, 156, 148);
@@ -208,6 +212,7 @@ button{
 .loreblock li{
     text-align: left;
 }
+
 
 @media (max-width: 550px) {
     .form-header{
