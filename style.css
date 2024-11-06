@@ -135,11 +135,14 @@ textarea{
 form{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 textarea {
     resize: none;
     color: black;
+    padding: 10px;
+    margin: 10px;
 }
 
 button{
@@ -150,4 +153,43 @@ button{
     background-color: white;
     border: none;    
     overflow-y: hidden;
+}
+
+.form-message{
+    text-align: left;
+    color: orange;
+}
+
+.form-message ul{
+    list-style: none;
+}
+.form-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.selectdiv{
+    width: 40%;
+    padding: 5px;
+}
+.emaildiv{
+    width: 40%;
+    padding: 5px;
+}
+
+.submit{
+    height: 30px;
+    width: 80px;
+    align-self: center;
+    font-family: "Drogowskaz";
+    background-color: rgb(235, 235, 235);
+    border: none;
+}
+
+.submit:hover{
+    background-color: rgb(97, 102, 103);
+    color:white;
 }

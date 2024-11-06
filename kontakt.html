@@ -34,18 +34,28 @@
 
     <main>
         <form class="lore">
-            <label for="email">Email:</label>
-            <input id="email" type="email" placeholder="inkwizycja@holy-terra.gov" name="email">
+            <div class="form-header">
+                <div class="emaildiv">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" placeholder="inkwizycja@holy-terra.gov" name="email">
+                </div>
 
-            <label for="temat">Temat wiadomości:</label>
-            <select name="tematy" id="temat">
-                <option value="prayer">Modlitwa do Boga-Imperatora</option>
-                <option value="complaint">Zażalenie</option>
-                <option value="heresy">Zgłoszenie herezji</option>
-            </select>
-            <textarea rows="4" cols="50" placeholder="hejooo..." id="textarea"></textarea>
-            <input type="submit" value="Wyślij">     
+                <div class="selectdiv">
+                    <label for="temat">Temat wiadomości:</label>
+                    <select name="tematy" id="temat">
+                        <option value="prayer">Modlitwa do Boga-Imperatora</option>
+                        <option value="complaint">Zażalenie</option>
+                        <option value="heresy">Zgłoszenie herezji</option>
+                    </select>
+                </div>
+            </div>
 
+
+            <textarea rows="4" cols="50" id="textarea"></textarea>
+
+            <div class="form-message"></div>
+
+            <input type="submit" value="Wyślij" class="submit">     
 
         </form>
 
