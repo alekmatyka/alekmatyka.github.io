@@ -167,15 +167,17 @@ textarea {
     margin: 10px;
 }
 
+
 button{
     width:30%;
     height: 30px;
     margin: 10px;
     font-family: "Drogowskaz";
     background-color: white;
-    border: none;    
+    border: 1px solid rgb(152, 156, 148);    
     overflow-y: hidden;
 }
+
 
 .form-message{
     text-align: left;
@@ -234,6 +236,8 @@ button{
 .logo img{
     width: 90%;
 }
+
+
 
 @media (max-width: 1000px){
     .selectdiv{
