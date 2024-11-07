@@ -225,6 +225,15 @@ button{
     text-align: left;
 }
 
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    overflow: hidden;
+}
+.logo img{
+    width: 90%;
+}
 
 @media (max-width: 1000px){
     .selectdiv{
@@ -267,4 +276,8 @@ button{
     .loreblock{
         margin:5%;
     }
+    .lore{
+        flex-direction: column;
+    }
+
 }
