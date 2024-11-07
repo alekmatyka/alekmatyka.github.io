@@ -116,6 +116,18 @@ main{
     padding: 3%;
 }
 
+.form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(152, 156, 148);
+    text-align: center;
+    font-size: 15pt;
+    margin:10%;
+    padding: 3%;
+}
+
 footer{
     background-color: rgb(57, 72, 74);
     color: white;
@@ -213,6 +225,19 @@ button{
     text-align: left;
 }
 
+
+@media (max-width: 1000px){
+    .selectdiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .emaildiv{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
 
 @media (max-width: 550px) {
     .form-header{
