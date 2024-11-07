@@ -277,6 +277,11 @@ button{
     align-self: center;
 }
 
+video{
+    margin: 10px;
+    width: 80%;
+}
+
 @media (max-width: 1000px){
     .selectdiv{
         display: flex;
