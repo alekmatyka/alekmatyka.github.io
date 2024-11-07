@@ -55,6 +55,7 @@ nav{
     background-color: white;
 }
 
+
 main{
     background-color: rgb(235, 235, 235);
     display: flex;
@@ -246,7 +247,7 @@ button{
     padding: 10px;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: flex-start;
+    align-content: space-between;
 }
 
 .loregalery img{
@@ -255,6 +256,26 @@ button{
     margin-top: 20px;
 }
 
+.loregalery h2{
+    width: 90%;
+    text-align: center;
+    align-self: center;
+}
+
+.loregalery div{
+    display: flex;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.loregalerydiv{
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
 
 @media (max-width: 1000px){
     .selectdiv{
