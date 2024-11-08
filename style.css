@@ -326,5 +326,7 @@ video{
     .lore{
         flex-direction: column;
     }
-
+    button{
+        height:50px;
+    }
 }

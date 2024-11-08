@@ -60,10 +60,10 @@ let legiondescriptons=[
         "Po tym, jak Imperator kazał Ultramarynarzom spalić Jerozolimę synów Lorgara, w legionie zasiały się siarna herezji. To Astartes Głosicieli Słowa wprowadzili w ruch machinę horusowej rebelii.<br><br>Teraz służą Chaosowi Niepodzielonemu, wykonując rytuały i poddając się dobrowolnemu opętaniu ku chwale jedynych prawdziwych bogów - władców chaosu."],
     ["Planeta pochodzenia: Nocturne <br>Prymarcha: Vulkan<br><br> Oto najbardziej przyjazny legion Astartes. Pomimo swojego dziwnego wyglądu: węglowo-czarnej skórze i świecącymi na czerwono oczami - są naprawde milusi.<br> Stawiają życie zwykłych ludzi ponad swoje, ponieważ bez nich, nie byłoby Imperium<br><br>No chyba że nie jesteś człowiekiem.<br><br>To wtedy masz pewność, że spotkasz sie z każdym rodzajem broni ogniowej i termicznej, jaką sobie tylko możesz wymyślić, i nie tylko...",
         "Legioniści Salamander obecnie zajmują sie zbieraniem swojej wersji kamieni nieskończoności - artefaktów ich prymarchy, Vulkana <br><br>Robią to, ponieważ wierzą, że po zebraniu ich do kupy ich genoojciec powróci, by jeszcze raz nimi dowodzić."],
-    ["corvus",
-        "corvus"],
-    ["alpha",
-        "alpha"]
+    ["Planeta pochodzenia: Deliverance<br>Prymarcha: Corvus Corax<br><br><i>The sneaky boys.</i><br><br>Krucza gwardia to legion wyspecjalizowany w walce z ukrycia, dywersji, partyzantki i wojny niekonwencjonalnej.<br><br>Pomimo bycia 2,5 metrowymi chłopami w tonowych zbrojach, oni naprawde potrafią być cisi i niezauważeni na polu bitwy, podbijając planety w mgnieniu oka po ujawnieniu się.<br><br>Każdy znich to także noszący hełm w kształcie dzioba edgelord, super emo aż do bólu.  ",
+        "Ich głównym zajęciem po herezji jest polowanie na wszystkich heretyków,<br>a szczególnie na ministrantów Lorgara <br><br>(Zemsta sa to co się stało na Istvaan V)"],
+    ["Planeta pochodzenia: kij wie<br>Prymarcha: Alpharius / Omegon<br><br><i>The other sneaky boys</i>W odróżnieniu od XIX Legionu, synowie Alpariusa Omegona specjalizują się w innej formie walki w ukryciu.<br><br>Są specjalistami od szpiegostwa, podwójnych agentów, sabotażu i wojny informacyjnej.<br><br>Posiadają (prawdopodobnie, nikt oprócz nich tak naprawdę nie wie) agentów w każdym innym legionie.<br><br>Ponadto, każdy legionista przechodazi operacje plastyczne, by jak najbardziej upodobnic się do swoich prymarchów: bliźniaczych Alphariusa i Omegona,<br>siejąc tym jescze większy zamęt",
+        "Po 10 tysiącach lat okazuje się, że nikt - naet sami Legioniści Alfa, nie wiedzą, jaka jest ich obecna misja. <br><br> Wszystkie te informacje zostały zatarte przez piaski czasu lub są głęboko trzymane, bez możliwośc wyjścia na jaw."]
 ]
 
 let counter=[]
@@ -76,15 +76,6 @@ console.log(legionclass[2][1])
 for(let i=0;i<18;i++){
     loreblocks[i].innerHTML=legiondescriptons[i][0]
 }
-//--------------------------------------------------
-// const buttonEC = document.getElementById("button_EC")
-
-// buttonEC.addEventListener("click", (e)=>{
-
-//     legioncounter[2]=(legioncounter[2]+1)%2
-//     loreblocks[2].innerHTML=legioncontent[2][legioncounter[2]]
-//     buttonEC.innerHTML=buttontext[legioncounter[2]]
-// })
 
 const bts = document.getElementsByClassName("button")
 
